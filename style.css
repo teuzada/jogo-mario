@@ -36,6 +36,7 @@
     animation: clouds-animation 20s infinite linear;
 }
 
+
 @keyframes pipe-animation {
     from{
         rigth: -80px
@@ -68,8 +69,9 @@
 }
 
 @keyframes clouds-animation {
+
     from {
-        rigth: -550;
+        right: -550px;
     }
 
     to {
