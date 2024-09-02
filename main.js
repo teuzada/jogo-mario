@@ -1,11 +1,11 @@
-const mayara = document.querySelector(".mayara");
+const mario = document.querySelector(".mario");
 const pipe = document.querySelector(".pipe");
 
 const jump = () => {
-    mayara.classList.add("jump");
+    mario.classList.add("jump");
 
     setTimeout(() => {
-        mayara.classList.remove("jump");
+        mario.classList.remove("jump");
     }
     ,500);
 }
