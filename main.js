@@ -3,13 +3,13 @@ const pipe = document.querySelector(".pipe");
 const startButton = document.querySelector(".start");
 const gameOverScreen = document.querySelector(".gameover");
 
-let GameStarted = false;
+let gameStarted = false;
 
 const startGame = () => {
-gameStarted = true;
+    gameStarted = true;
 
-pipe.style.animation = "pipe-animation 1.5s infinite"
-startButton.style.display = "none';
+    pipe.style.animation = "pipe-animation 1.5s infinite"
+    startButton.style.display = "none';
     mario.style.opacity = "1";
     pipe.style.opacity = "1";
     clouds.style.opacity = "1";
@@ -35,7 +35,7 @@ const loop = setInterval (() => {
         pipe.style.animation = "none";
         pipe.style.left = `${pipePosition}px`;
 
-        mario.src = "./img/game-over.png";
+        mario.src = "img/game-over.png";
         mario.style.width = "75px";
         mario.style.marginLeft = "50px";
 
