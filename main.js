@@ -9,7 +9,7 @@ const startGame = () => {
     gameStarted = true;
 
     pipe.style.animation = "pipe-animation 1.5s infinite"
-    startButton.style.display = "none';
+    startButton.style.display = "none";
     mario.style.opacity = "1";
     pipe.style.opacity = "1";
     clouds.style.opacity = "1";
