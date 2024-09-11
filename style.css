@@ -14,7 +14,7 @@
     background: linear-gradient(#87ceeb, #e0f6ff);
 }
 
-.pipe, mario, .nuvem {
+.pipe, .mario, .nuvem {
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
 }
@@ -23,7 +23,6 @@
     position: absolute;
     bottom: 0;
     width: 80px;
-    animation: pipe-animation 1.5s infinite linear;
 }
 
 .mario {
