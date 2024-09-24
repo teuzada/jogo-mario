@@ -6,7 +6,7 @@ const gameOverScreen = document.querySelector(".game-over");
 const scoreElement = document.querySelector(".score");
 
 audioStart = new Audio("./sound/toma.mp3");
-const gameOverSound = new Audio("./sound/novru.mp3");
+const gameOverSound = new Audio("./sound/tata.mp3");
 
 let gameStarted = false;
 let score = 0;
